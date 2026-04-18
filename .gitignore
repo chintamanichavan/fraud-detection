@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+.python-version
+
+# Secrets / runtime
+.env
+.env.*
+!.env.example
+
+# Model artifacts
+*.pkl
+*.joblib
+*.bin
+models/
+checkpoints/
+
+# Feast registry
+data/registry.db
+data/online_store.db
+
+# Faust / streaming state
+faust-table/
+streaming-state/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
